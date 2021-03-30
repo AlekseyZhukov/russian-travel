@@ -1,0 +1,5 @@
+.footer__links {}
+
+@media and (max-width: 400px) {
+    .footer__links {}
+}

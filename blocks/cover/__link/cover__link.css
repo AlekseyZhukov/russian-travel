@@ -1,4 +1,4 @@
-.cover__link_conteiner {
+.cover__link {
     text-decoration: none;
     color: white;
     display: block;
@@ -13,7 +13,7 @@
     z-index: 1;
 }
 
-.cover__link_conteiner:after {
+.cover__link:after {
     position: absolute;
     content: '';
     left: 0;
@@ -26,12 +26,12 @@
     transition: opacity 0.5s ease-in-out;
 }
 
-.cover__link_conteiner:hover:after {
+.cover__link:hover:after {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
-    .cover__link_conteiner {
+    .cover__link {
         max-width: 100%;
         padding-top: 195px;
         padding-bottom: 195px;
@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .cover__link_conteiner {
+    .cover__link {
         max-width: 100%;
         padding-top: 115px;
         padding-bottom: 115px;
@@ -47,7 +47,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .cover__link_conteiner {
+    .cover__link {
         max-width: 100%;
         padding-top: 33px;
         padding-bottom: 33px;
@@ -55,7 +55,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .cover__link_conteiner {
+    .cover__link {
         max-width: 100%;
         padding-top: 33px;
         padding-bottom: 33px;
