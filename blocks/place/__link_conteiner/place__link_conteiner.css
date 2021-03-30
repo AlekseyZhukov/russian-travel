@@ -1,0 +1,7 @@
+.place__link_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    padding-bottom: 0;
+    color: #ffffff;
+}

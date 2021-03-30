@@ -1,0 +1,21 @@
+.grid__image {
+    max-width: 288px;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid__image {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid__image {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .grid__image {
+        max-width: 288px;
+    }
+}

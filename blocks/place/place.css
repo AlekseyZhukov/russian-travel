@@ -1,0 +1,15 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: max-content max-content;
+    max-width: 984px;
+    gap: 40px;
+    margin: 0 auto 80px;
+}
+
+@media screen and (max-width: 850px) {
+    .place {
+        max-width: 720px;
+        gap: 28px;
+    }
+}
