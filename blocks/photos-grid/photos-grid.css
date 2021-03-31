@@ -4,13 +4,26 @@
         grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
         gap: 16px 16px;
         max-width: 1200px;
+        text-align: center;
         margin: 0 auto 92px;
+    }
+    
+    @media screen and (max-width: 1220px) {
+        .photos-grid {
+            max-width: 900px;
+        }
     }
     
     @media screen and (max-width: 1100 px) {
         .photos-grid {
             max-width: 929px;
             margin: 0 auto 92px;
+        }
+    }
+    
+    @media screen and (max-width: 950px) {
+        .photos-grid {
+            max-width: 900px;
         }
     }
     

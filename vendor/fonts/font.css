@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 900;
+    font-weight: bold;
     src: url(./inter-v3-latin_cyrillic-900.woff2) format('woff2');
     -webkit-font-smoothing: antialiased;
 }

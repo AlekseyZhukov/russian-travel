@@ -7,9 +7,27 @@
     margin: 0 auto 80px;
 }
 
+@media screen and (max-width: 950px) {
+    .place {
+        max-width: 800px;
+        gap: 28px;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .place {
-        max-width: 720px;
-        gap: 28px;
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .place {
+        max-width: 100%;
     }
 }
