@@ -2,14 +2,21 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url(./inter-v3-latin_cyrillic-regular.woff2) format('woff2');
+    src: url(./inter-v3-latin_cyrillic-regular.woff2) format('woff2'), url(./inter-v3-latin_cyrillic-regular.woff) format('woff');
     -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: bold;
-    src: url(./inter-v3-latin_cyrillic-900.woff2) format('woff2');
+    font-weight: 900;
+    src: url(./inter-v3-latin_cyrillic-900.woff2) format('woff2'), url(./inter-v3-latin_cyrillic-900.woff) format('woff');
     -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./inter-v3-latin_cyrillic-700.woff2) format('woff2'), url(inter-v3-latin_cyrillic-700.woff) format('woff');
 }
