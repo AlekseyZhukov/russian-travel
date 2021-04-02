@@ -2,5 +2,12 @@
     width: 176px;
     height: 52px;
     background-image: url(../../../images/sprint-3-images/header-logo.svg);
-    background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+    .header__logo {
+        max-width: 142px;
+        height: 42px;
+        background-size: contain;
+    }
 }

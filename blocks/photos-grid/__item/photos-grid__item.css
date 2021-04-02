@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
     .photos-grid__item {
         max-width: 300px;
     }
@@ -32,7 +32,13 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+    .photos-grid__item {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 740px) {
     .photos-grid__item {
         max-width: 310px;
     }
@@ -50,7 +56,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .photos-grid__item {
         max-width: 288px;
     }

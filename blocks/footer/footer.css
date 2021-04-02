@@ -14,10 +14,18 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .footer {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .footer {
         display: block;
         padding-left: 16px;
         padding-top: 64px;
+        padding-bottom: 24px;
     }
 }

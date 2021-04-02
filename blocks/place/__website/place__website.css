@@ -5,3 +5,9 @@
     padding-bottom: 0;
     color: #ffffff;
 }
+
+@media screen and (max-width: 450px) {
+    .place__website {
+        margin-left: 10px;
+    }
+}

@@ -4,21 +4,21 @@
     line-height: 1.1;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 32;
+    margin: 0 auto 32px;
+    max-width: 560px;
 }
 
-@media screen and (max-width: 320px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 16px;
-    }
-}
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 560px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 20px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cover__title {
+        margin-bottom: 16px;
     }
 }
