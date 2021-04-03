@@ -1,0 +1,16 @@
+.lead__illustration {
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1050px) {
+    .lead__illustration {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1021px) {
+    .lead__illustration {
+        max-width: 100%;
+    }
+}

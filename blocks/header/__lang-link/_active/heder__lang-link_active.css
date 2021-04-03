@@ -1,0 +1,15 @@
+.header__lang-link_active {
+    margin-right: 18px;
+    text-decoration: underline;
+}
+
+.header__lang-link_active:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 400px) {
+    .header__lang-link_active {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
