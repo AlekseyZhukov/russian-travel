@@ -4,8 +4,10 @@
         grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
         gap: 16px 16px;
         max-width: 1200px;
+        list-style: none;
         text-align: center;
         margin: 0 auto 92px;
+        padding-left: 0;
     }
     
     @media screen and (max-width: 1220px) {
